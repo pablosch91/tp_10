@@ -1,0 +1,73 @@
+{
+  "clientes": [
+    {
+      "response": "OK",
+      "nombre": "Juan Perez",
+      "contacto": "juan.perez@gmail.com",
+      "password": "1234",
+      "fecha_ultimo_ingreso": "08/09/2026",
+      "activo": true,
+      "fecha_cambio_password": "01/08/2026",
+      "registrado": true,
+      "primer_ingreso": false,
+      "fecha_alta": "01/08/2026",
+      "id": "cliente-001"
+    },
+    {
+      "response": "OK",
+      "nombre": "Maria Gomez",
+      "contacto": "maria.gomez@gmail.com",
+      "password": "5678",
+      "fecha_ultimo_ingreso": "05/09/2026",
+      "activo": true,
+      "fecha_cambio_password": "15/08/2026",
+      "registrado": true,
+      "primer_ingreso": false,
+      "fecha_alta": "15/08/2026",
+      "id": "cliente-002"
+    },
+    {
+      "response": "OK",
+      "nombre": "Carlos Rodriguez",
+      "contacto": "carlos.rodriguez@gmail.com",
+      "password": "abcd",
+      "fecha_ultimo_ingreso": "30/08/2026",
+      "activo": false,
+      "fecha_cambio_password": "20/07/2026",
+      "registrado": true,
+      "primer_ingreso": false,
+      "fecha_alta": "20/07/2026",
+      "id": "cliente-003"
+    }
+  ],
+  "tickets": [
+    {
+      "response": "OK",
+      "id": "ticket-001",
+      "cliente_id": "cliente-001",
+      "descripcion": "La computadora no enciende",
+      "estado": "abierto"
+    },
+    {
+      "response": "OK",
+      "id": "ticket-002",
+      "cliente_id": "cliente-001",
+      "descripcion": "No puedo acceder al sistema",
+      "estado": "en_proceso"
+    },
+    {
+      "response": "OK",
+      "id": "ticket-003",
+      "cliente_id": "cliente-002",
+      "descripcion": "Problemas con la conexion a Internet",
+      "estado": "cerrado"
+    },
+    {
+      "response": "OK",
+      "id": "ticket-004",
+      "cliente_id": "cliente-003",
+      "descripcion": "Error al iniciar sesion",
+      "estado": "abierto"
+    }
+  ]
+}
