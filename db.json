@@ -43,28 +43,28 @@
   "tickets": [
     {
       "response": "OK",
-      "id": "ticket-001",
+      "id": "1",
       "cliente_id": "cliente-001",
       "descripcion": "La computadora no enciende",
       "estado": "abierto"
     },
     {
       "response": "OK",
-      "id": "ticket-002",
+      "id": "2",
       "cliente_id": "cliente-001",
       "descripcion": "No puedo acceder al sistema",
       "estado": "en_proceso"
     },
     {
       "response": "OK",
-      "id": "ticket-003",
+      "id": "3",
       "cliente_id": "cliente-002",
       "descripcion": "Problemas con la conexion a Internet",
       "estado": "cerrado"
     },
     {
       "response": "OK",
-      "id": "ticket-004",
+      "id": "4",
       "cliente_id": "cliente-003",
       "descripcion": "Error al iniciar sesion",
       "estado": "abierto"
