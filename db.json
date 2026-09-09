@@ -11,7 +11,7 @@
       "registrado": true,
       "primer_ingreso": false,
       "fecha_alta": "01/08/2026",
-      "id": "cliente-001"
+      "id": "1"
     },
     {
       "response": "OK",
@@ -24,7 +24,7 @@
       "registrado": true,
       "primer_ingreso": false,
       "fecha_alta": "15/08/2026",
-      "id": "cliente-002"
+      "id": "2"
     },
     {
       "response": "OK",
@@ -37,7 +37,7 @@
       "registrado": true,
       "primer_ingreso": false,
       "fecha_alta": "20/07/2026",
-      "id": "cliente-003"
+      "id": "3"
     }
   ],
   "tickets": [
